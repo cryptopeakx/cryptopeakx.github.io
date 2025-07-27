@@ -1,5 +1,3 @@
-javascript
-
 async function fetchWLFIPrice() {
     try {
         const response = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=world-liberty-financial&vs_currencies=usd');
